@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="icon" href="..img/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style-portfolio.css" type="text/css">
+
+  <!--https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    		https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js-->
+
+  <script src="https://kit.fontawesome.com/a572736f23.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark  navbar-expand-lg ">
+    <div class="container-fluid">
+
+      <!--Logo ArgentinaPrograma -->
+
+      <a class="navbar-brand" href="index.html">
+        <img src="img/APLogo.png" alt="Argentina Programa" width="150rem"> </a>
+      <!--Botones -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links Redes sociales-->
+      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 text-light">
+        <li class="nav-item col-md-auto p3 ">
+          <a class="nav-link active fs-5" aria-current="page" href="https://github.com/ND-magyp" target=_blank>
+            <i class="fa-brands fa-github"></i>
+            <small class="d-md-none ms-2">Github</small></a>
+        </li>
+        <li class="nav-item col-md-auto p3 ">
+          <a class="nav-link active fs-5" aria-current="page" href="#">
+            <i class="fa-regular fa-envelope"></i>
+            <small class="d-md-none ms-2">Correo</small></a>
+        </li>
+        <!--  Boton de Inicio de sesion direcciona al login-->
+        <button type="button" class="btn >
+   							<li class=" nav-item col-md-auto p3 ">
+              		<a class=" nav-link active" aria-current="page" href="login.html">
+          <i class="fa-solid fa-user-lock"></i>
+          <small class="d-md-none ms-2">Login</small></a>
+          </li>
+        </button>
+      </ul>
+    </div>
+  </nav>
+  <!--- formulario login --->
+  <section class="login">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8 formulario-login">
+          <div class="modal-body ">
+            <!-- formulario para hacer login -->
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-secondary">Ingresar</button>
+          </div>
+        </div>
+        <small>Si no tenes cuenta <a href="registro.html">registrate </a> </small>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="bg-dark text-light text-center p-4 mt-5"> &#169; Norma DF 2022 - TP Argentina Programa </footer>
+</body>
+
+</html>

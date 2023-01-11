@@ -1,0 +1,65 @@
+:root {
+  --color-blue-medium: #8fe2e4;
+  --color-purple: #632ce7;
+  --color-gray: #ccc;
+  --color-gray-medium: #e86316;
+  --color-yellow: #fac32c;
+}
+
+
+
+/* Carousel -------------------------------------------*/
+.carousel-item {
+  padding: 1vh;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(50%);
+}
+
+#scroll {
+  height: 400px;
+  border: 1px solid #ddd;
+  background: #f1f1f1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 50px;
+}
+
+/* Habilidades */
+.item-progress {
+  padding: 10px;
+}
+
+.progress {
+  box-shadow: 1px 0.4px 4px rgba(0, 0, 0, 0.671);
+}
+
+/* Proyectos   */   
+.card {
+  padding: 2vh;
+  margin-top: 10px;
+}
+
+/* login*/
+.login {
+  height: 80vh;
+}
+
+.formulario-login {
+  margin-top: 20%;
+}
+
+/* dashboard*/
+.enlaces {
+  margin-top: 10%;
+}
+
+.link {
+  text-decoration: none; 
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+}

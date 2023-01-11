@@ -1,0 +1,1139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Panel</title>
+
+	<link rel="icon" href="..img/favicon.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="style-portfolio.css" type="text/css">
+	<!--https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    		https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js-->
+	<script src="https://kit.fontawesome.com/a572736f23.js" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<nav class="navbar fixed-top navbar-dark bg-dark  navbar-expand-lg ">
+		<div class="container-fluid">
+			<!--Logo ArgentinaPrograma -->
+			<a class="navbar-brand" href="index.html"><img src="img/APLogo.png" alt="Argentina Programa" width="150rem">
+			</a>
+			<!--Botones -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- barra navegacion-->
+			<ul class="navbar-nav  ms-auto mb-2 mb-lg-0 text-light">
+				<!--  Boton de Inicio de sesion direcciona al login-->
+				<button type="button" class="btn >
+  							<li class=" nav-item col-md-auto p3 ">
+              		<a class=" nav-link active" aria-current="page" href="login.html">
+					<i class="fa-solid fa-user "></i>
+					<small class="d-md-none ms-2">Login</small></a>
+					</li>
+				</button>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid text-left">
+		<div class="row">
+			<div class="col-1">
+				<!--Margen izquierdo-->
+			</div>
+			<div class="col-2 enlaces pt-1">
+				<!--Enlaces del margen izquierdo-->
+				<img src="img/NDF.jpg" alt="Foto perfil" class="rounded-circle img_fluid w:90rem " />
+				<h6 class="text-left mt-1"><strong>Norma D. Fernández </strong></h6>
+
+				<ul class="list-group mt-4">
+
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#redesModal"
+							class="link mt-5"><i class="fa-solid fa-share-nodes"></i> Redes Sociales</a></li>
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#bannerModal"
+							class="link mt-5"><i class="fa-solid fa-image"></i> Banner</a></li>
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#presentacionModal"
+							class="link"><i class="fa-solid fa-circle-info"></i> Presentación</a></li>
+
+					<li class="list-group-item">
+						<i class="fa-sharp fa-solid fa-person-digging"></i>
+						<a class="link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseExperiencia">
+							Experiencia</a>
+					</li>
+
+					<!--inicio experiencia colapsable-->
+					<div class="collapse me-auto mb-auto" id="collapseExperiencia">
+						<div class="card card-body">
+							<li class="list-group-item">
+								<i class="fa-sharp fa-solid fa-person-digging"></i><a class="link" href="#"
+									data-bs-toggle="modal" data-bs-target="#experienciaUno"> Experiencia 1</a>
+							</li>
+							<li class="list-group-item">
+								<i class="fa-sharp fa-solid fa-person-digging"></i><a class="link" href="#"
+									data-bs-toggle="modal" data-bs-target="#experienciaDos"> Experiencia 2</a>
+							</li>
+							<li class="list-group-item">
+								<i class="fa-sharp fa-solid fa-person-digging"></i><a class="link" href="#"
+									data-bs-toggle="modal" data-bs-target="#experienciaTres"> Experiencia 3</a>
+							</li>
+						</div>
+					</div>
+					<!--fin experiencia colapsable-->
+
+					<li class="list-group-item">
+						<i class="fa-solid fa-user-graduate"></i>
+						<a class="link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseEducacion">
+							Educacion</a>
+					</li>
+
+					<!--inicio educacion colapsable-->
+					<div class="collapse me-auto mb-auto" id="collapseEducacion">
+						<div class="card card-body">
+							<li class="list-group-item">
+								<i class="fa-solid fa-user-graduate"></i>
+								<a class="link" href="#" data-bs-toggle="modal" data-bs-target="#educacionUno">
+									Educacion 1</a>
+							</li>
+							<li class="list-group-item">
+								<i class="fa-solid fa-user-graduate"></i><a class="link" href="#" data-bs-toggle="modal"
+									data-bs-target="#educacionDos"> Educacion 2</a>
+							</li>
+							<li class="list-group-item">
+								<i class="fa-solid fa-user-graduate"></i><a class="link" href="#" data-bs-toggle="modal"
+									data-bs-target="#educacionTres"> Educacion 3</a>
+							</li>
+						</div>
+					</div>
+					<!--fin educacion colapsable-->
+
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal"
+							data-bs-target="#certificacionesModal" class="link"><i
+								class="fa-solid fa-certificate"></i></i> Certificaciones</a></li>
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#habilidadesModal"
+							class="link"><i class="fa-solid fa-hands"></i> Habilidades</a>
+					</li>
+
+					<!--inicio proyectos -->
+
+					<li class="list-group-item">
+						<i class="fa-sharp fa-solid fa-person-digging"></i>
+						<a class="link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseproyectos">
+							proyectos</a>
+					</li>
+
+					<!--inicio proyectos colapsable-->
+					<div class="collapse me-auto mb-auto" id="collapseproyectos">
+						<div class="card card-body">
+							<li class="list-group-item">
+								<i class="fa-sharp fa-solid fa-person-digging"></i><a class="link" href="#"
+									data-bs-toggle="modal" data-bs-target="#proyectosUno"> proyecto 1</a>
+							</li>
+							<li class="list-group-item">
+								<i class="fa-sharp fa-solid fa-person-digging"></i><a class="link" href="#"
+									data-bs-toggle="modal" data-bs-target="#proyectosDos"> proyecto 2</a>
+							</li>
+							<li class="list-group-item">
+								<i class="fa-sharp fa-solid fa-person-digging"></i><a class="link" href="#"
+									data-bs-toggle="modal" data-bs-target="#proyectosTres"> proyecto 3</a>
+							</li>
+						</div>
+					</div>
+					<!--fin proyectos colapsable-->
+
+
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#piepaginaModal"
+							class="link"><i class="fa-solid fa-arrows-down-to-line"></i> Footer</a></li>
+
+
+					<!-- cierre de la lista -->
+
+					<!-- Item vacio de la lista para que quede mas prolijo -->
+					<li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#presentacionModal"
+							class="link"><i class="fa-thin fa-period"></i></a></li>
+				</ul>
+			</div>
+
+			<!-- Columna central: Modales -->
+			<div class="col-8">
+
+				<!-- Inicio redesModal -->
+				<div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Redes Sociales</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<!-- inicio de formulario en el modal -->
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<form>
+												<div class="mb-3">
+													<label for="github" class="form-label">Ingrese URL para GITHUB <span
+															style="color:#9A93B0;"><em>Ej:
+																https://github.com/user</em></span></label>
+													<input type="url" class="form-control" id="exampleInputEmail1"
+														aria-describedby="emailHelp">
+
+												</div>
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="twitter" class="form-label mt-4">Ingrese URL para
+														TWITTER <span style="color:#9A93B0;"><em>Ej:
+																https://twitter.com/AgriculturaAR...</em></span></label>
+													<input type="url" class="form-control" id="exampleInputEmail1"
+														aria-describedby="emailHelp">
+												</div>
+												<button type="button mb-5" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="instagram" class="form-label mt-4">Ingrese URL para
+														INSTAGRAM <span style="color:#9A93B0;"><em>Ej:
+																www.instagram.com/agriculturaar/?hl=es</em></span></label>
+													<input type="url" class="form-control" id="exampleInputEmail1"
+														aria-describedby="emailHelp">
+												</div>
+												<button type="button" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+											</form>
+										</div>
+										<div class="col-1">
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin redesModal -->
+
+				<!-- Inicio bannerModal -->
+				<div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Banner</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio formulario banner -->
+
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<div class="mb-3">
+												<label for="banner" class="form-label">Seleccione la imagen : El archivo
+													debe
+													llamarse "banner3.jpg"</label>
+												<input class="form-control" type="file" id="banner">
+											</div>
+
+										</div>
+										<div class="col-1">
+
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary"
+										data-bs-dismiss="modal">Cerrar</button>
+									<button type="button" class="btn btn-primary">Guardar</button>
+								</div>
+
+								<!-- Fin formulario banner -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin bannerModal -->
+
+				<!-- Inicio presentacionModal -->
+				<div class="modal fade" id="presentacionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Presentacion</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<!-- inicio formulario presentacion foto -->
+
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<div class="mb-3">
+												<label for="banner" class="form-label">Seleccione la imagen : El archivo
+													debe
+													llamarse "NDF.jpg"</label>
+												<input class="form-control" type="file" id="banner">
+											</div>
+
+										</div>
+										<div class="col-1">
+
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary"
+										data-bs-dismiss="modal">Cerrar</button>
+									<button type="button" class="btn btn-primary">Guardar</button>
+								</div>
+
+								<hr>
+								<!-- Fin formulario presentacion foto  -->
+
+								<!-- inicio formulario presentacion textos -->
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<form>
+												<div class="mb-3">
+													<label for="info1" class="form-label">Ingrese texto linea 1 <span
+															style="color:#9A93B0;"><em>Ej: Nombre y
+																apellido</em></span></label>
+													<input type="text" class="form-control" id="info1"
+														aria-describedby="emailHelp">
+
+												</div>
+
+
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="info2" class="form-label">Ingrese texto linea 2 <span
+															style="color:#9A93B0;"><em>Ej: Título
+																universitario</em></span></label>
+													<input type="text" class="form-control" id="info2"
+														aria-describedby="emailHelp">
+
+												</div>
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="info3" class="form-label">Ingrese texto linea 3 <span
+															style="color:#9A93B0;"><em> Desarrolladora Full Stack
+																Jr</em></span></label>
+													<input type="text" class="form-control" id="info3"
+														aria-describedby="emailHelp">
+
+												</div>
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="info4" class="form-label">Ingrese texto linea 4 <span
+															style="color:#9A93B0;"><em>A que me
+																dedico</em></span></label>
+													<input type="text" class="form-control" id="exampleInputEmail1"
+														aria-describedby="emailHelp">
+
+												</div>
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+										</div>
+										</form>
+									</div>
+									<div class="col-1">
+
+									</div>
+								</div>
+							</div>
+							<!-- Fin formulario presentacion textos  -->
+
+
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+								<!--<button type="button" class="btn btn-primary">Guardar</button>-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin presentacionModal -->
+
+				<!-- Inicio experienciaModal 1 -->
+				<div class="modal fade" id="experienciaUno" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Experiencia</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio interior experiencia -->
+
+
+								<div class="mb-3 mt-4">
+									<label for="experienciaUnoinfo1" class="form-label">Ingrese nombre del puesto
+										ocupado<span style="color:#9A93B0;"><em> Ej: Analista Económico
+												Senior</em></span></label>
+									<input type="text" class="form-control" id="experienciaUnoinfo1"
+										aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 mt-4">
+									<label for="experienciaUnoinfo2" class="form-label">Ingrese nombre de empresa<span
+											style="color:#9A93B0;"><em> Ej: Ministerio de Economía</em></span></label>
+									<input type="text" class="form-control" id="experienciaUnoinfo2"
+										aria-describedby="emailHelp">
+								</div>
+
+								<div class="mb-3 mt-4">
+									<label for="periodoUno" class="form-label">Ingrese período<span
+											style="color:#9A93B0;"><em> Ej:
+												Desde 1991 a la actualidad</em></span></label>
+									<input type="text" class="form-control" id="periodoUno"
+										aria-describedby="emailHelp">
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Guardar</button>
+								<button type="button" class="btn btn-danger">Eliminar</button>
+								<button type="button" class="btn btn-warning">Actualizar</button>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin experienciaModal 1 -->
+
+				<!-- Inicio experienciaModal 2 -->
+				<div class="modal fade" id="experienciaDos" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Experiencia</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio interior experiencia -->
+
+								<div class="mb-3 mt-4">
+									<label for="experienciaUnoinfo1" class="form-label">Ingrese nombre del puesto
+										ocupado<span style="color:#9A93B0;"><em> Ej: Analista Económico
+												Senior</em></span></label>
+									<input type="text" class="form-control" id="experienciaUnoinfo1"
+										aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 mt-4">
+									<label for="experienciaUnoinfo2" class="form-label">Ingrese nombre de empresa<span
+											style="color:#9A93B0;"><em> Ej: Ministerio de Economía</em></span></label>
+									<input type="text" class="form-control" id="experienciaUnoinfo2"
+										aria-describedby="emailHelp">
+								</div>
+
+								<div class="mb-3 mt-4">
+									<label for="periodoUno" class="form-label">Ingrese período<span
+											style="color:#9A93B0;"><em> Ej:
+												Desde 1991 a la actualidad</em></span></label>
+									<input type="text" class="form-control" id="periodoUno"
+										aria-describedby="emailHelp">
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Guardar</button>
+								<button type="button" class="btn btn-danger">Eliminar</button>
+								<button type="button" class="btn btn-warning">Actualizar</button>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin experienciaModal 2 -->
+
+				<!-- Inicio experienciaModal 3 -->
+				<div class="modal fade" id="experienciaTres" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Experiencia</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio interior experiencia -->
+
+								<div class="mb-3 mt-4">
+									<label for="experienciaUnoinfo1" class="form-label">Ingrese nombre del puesto
+										ocupado<span style="color:#9A93B0;"><em> Ej: Analista Económico
+												Senior</em></span></label>
+									<input type="text" class="form-control" id="experienciaUnoinfo1"
+										aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 mt-4">
+									<label for="experienciaUnoinfo2" class="form-label">Ingrese nombre de empresa<span
+											style="color:#9A93B0;"><em> Ej: Ministerio de Economía</em></span></label>
+									<input type="text" class="form-control" id="experienciaUnoinfo2"
+										aria-describedby="emailHelp">
+								</div>
+
+								<div class="mb-3 mt-4">
+									<label for="periodoUno" class="form-label">Ingrese período<span
+											style="color:#9A93B0;"><em> Ej:
+												Desde 1991 a la actualidad</em></span></label>
+									<input type="text" class="form-control" id="periodoUno"
+										aria-describedby="emailHelp">
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Guardar</button>
+								<button type="button" class="btn btn-danger">Eliminar</button>
+								<button type="button" class="btn btn-warning">Actualizar</button>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin experienciaModal 3 -->
+
+				<!-- Inicio educacionModal 1 -->
+				<div class="modal fade" id="educacionUno" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Educacion</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio interior educacion -->
+
+								<div class="mb-3 mt-4">
+									<label for="educacionUnoinfo1" class="form-label">Ingrese título<span
+											style="color:#9A93B0;"><em> Ej: Licenciada en Enconomía</em></span></label>
+									<input type="text" class="form-control" id="educacionUnoinfo1"
+										aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 mt-4">
+									<label for="educacionUnoinfo2" class="form-label">Ingrese establecimiento
+										educativo<span style="color:#9A93B0;"><em> Ej: Universidad de Buenos
+												Aires</em></span></label>
+									<input type="text" class="form-control" id="educacionUnoinfo2"
+										aria-describedby="emailHelp">
+								</div>
+
+								<div class="mb-3 mt-4">
+									<label for="periodoUno" class="form-label">Ingrese año obtención del título<span
+											style="color:#9A93B0;"><em> Ej:
+												1989</em></span></label>
+									<input type="text" class="form-control" id="periodoUno"
+										aria-describedby="emailHelp">
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Guardar</button>
+								<button type="button" class="btn btn-danger">Eliminar</button>
+								<button type="button" class="btn btn-warning">Actualizar</button>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin educacionModal 1 -->
+
+				<!-- Inicio educacionModal 2 -->
+				<div class="modal fade" id="educacionDos" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Educacion</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio interior educacion -->
+
+								<div class="mb-3 mt-4">
+									<label for="educacionDosinfo1" class="form-label">Ingrese título<span
+											style="color:#9A93B0;"><em> Ej: Licenciada en Enconomía</em></span></label>
+									<input type="text" class="form-control" id="educacionDosinfo1"
+										aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 mt-4">
+									<label for="educacionDosinfo2" class="form-label">Ingrese establecimiento
+										educativo<span style="color:#9A93B0;"><em> Ej: Universidad de Buenos
+												Aires</em></span></label>
+									<input type="text" class="form-control" id="educacionDosinfo2"
+										aria-describedby="emailHelp">
+								</div>
+
+								<div class="mb-3 mt-4">
+									<label for="periodoDos" class="form-label">Ingrese año obtención del título<span
+											style="color:#9A93B0;"><em> Ej:
+												1989</em></span></label>
+									<input type="text" class="form-control" id="periodoDos"
+										aria-describedby="emailHelp">
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Guardar</button>
+								<button type="button" class="btn btn-danger">Eliminar</button>
+								<button type="button" class="btn btn-warning">Actualizar</button>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin educacionModal 2 -->
+
+				<!-- Inicio educacionModal 3 -->
+				<div class="modal fade" id="educacionTres" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Educacion</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio interior educacion -->
+
+								<div class="mb-3 mt-4">
+									<label for="educacionTresinfo1" class="form-label">Ingrese título<span
+											style="color:#9A93B0;"><em> Ej: Licenciada en Enconomía</em></span></label>
+									<input type="text" class="form-control" id="educacionTresinfo1"
+										aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 mt-4">
+									<label for="educacionTresinfo2" class="form-label">Ingrese establecimiento
+										educativo<span style="color:#9A93B0;"><em> Ej: Universidad de Buenos
+												Aires</em></span></label>
+									<input type="text" class="form-control" id="educacionTresinfo2"
+										aria-describedby="emailHelp">
+								</div>
+
+								<div class="mb-3 mt-4">
+									<label for="periodoTres" class="form-label">Ingrese año obtención del título<span
+											style="color:#9A93B0;"><em> Ej:
+												1989</em></span></label>
+									<input type="text" class="form-control" id="periodoTres"
+										aria-describedby="emailHelp">
+								</div>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Guardar</button>
+								<button type="button" class="btn btn-danger">Eliminar</button>
+								<button type="button" class="btn btn-warning">Actualizar</button>
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin educacionModal 3 -->
+
+				<!-- Inicio certificacionesModal -->
+				<div class="modal fade" id="certificacionesModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Certificaciones</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio formulario certificaciones imagen -->
+
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<div class="mb-3">
+												<label for="banner" class="form-label">Seleccione la imagen : El archivo
+													debe ser tipo jpg</label>
+												<input class="form-control" type="file" id="banner">
+											</div>
+
+										</div>
+										<div class="col-1">
+
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary"
+										data-bs-dismiss="modal">Cerrar</button>
+									<button type="button" class="btn btn-primary">Guardar</button>
+								</div>
+
+								<hr>
+								<!-- Fin formulario certificaciones imagen  -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!--Fin certificacionesModal -->
+
+				<!-- Inicio habilidadesModal -->
+				<div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Habilidades</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								...
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+								<button type="button" class="btn btn-primary">Guardar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Fin habilidadesModal -->
+
+
+				<!-- Inicio proyectosModal 1 -->
+				<div class="modal fade" id="proyectosUno" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="exampleModalLabel">Proyectos</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+
+								<!-- inicio formulario proyecto 1 foto -->
+
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<div class="mb-3">
+												<label for="banner" class="form-label">Seleccione la imagen : El archivo
+													debe
+													llamarse "Proyecto1.jpg"</label>
+												<input class="form-control" type="file" id="banner">
+											</div>
+
+										</div>
+										<div class="col-1">
+
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary"
+										data-bs-dismiss="modal">Cerrar</button>
+									<button type="button" class="btn btn-primary">Guardar</button>
+								</div>
+
+								<hr>
+								<!-- Fin formulario proyecto 1 foto  -->
+
+								<!-- inicio formulario proyecto 1 textos -->
+								<div class="container">
+									<div class="row">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<form>
+												<div class="mb-3">
+													<label for="info1" class="form-label">Ingrese texto linea 1 <span
+															style="color:#9A93B0;"><em>Ej: Informaci�n de
+																Faena</em></span></label>
+													<input type="text" class="form-control" id="info1"
+														aria-describedby="emailHelp">
+
+												</div>
+
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="info2" class="form-label">Ingrese texto linea 2 <span
+															style="color:#9A93B0;"><em>Ej: Informes realizados a partir
+																de bases de datos SQL</em></span></label>
+													<input type="text" class="form-control" id="info2"
+														aria-describedby="emailHelp">
+
+												</div>
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+												<div class="mb-3">
+													<label for="info3" class="form-label">Ingrese texto linea 3 <span
+															style="color:#9A93B0;"><em> Ingrese link a la p�gina del
+																Proyecto</em></span></label>
+													<input type="text" class="form-control" id="info3"
+														aria-describedby="emailHelp">
+
+												</div>
+												<button type="button mb-2" class="btn btn-primary">Guardar</button>
+												<button type="button" class="btn btn-danger">Eliminar</button>
+												<button type="button" class="btn btn-warning">Actualizar</button>
+
+
+										</div>
+										</form>
+									</div>
+									<div class="col-1">
+
+									</div>
+								</div>
+							</div>
+							<!-- Fin formulario proyecto1  -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--Fin proyectosModal 1 -->
+
+			<!-- Inicio proyectosModal 2 -->
+			<div class="modal fade" id="proyectosDos" tabindex="-1" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Proyectos</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+
+							<!-- inicio formulario proyecto 2 foto -->
+
+							<div class="container">
+								<div class="row">
+									<div class="col-1">
+
+									</div>
+									<div class="col-10">
+										<div class="mb-3">
+											<label for="banner" class="form-label">Seleccione la imagen : El archivo
+												debe
+												llamarse "Proyecto2.jpg"</label>
+											<input class="form-control" type="file" id="banner">
+										</div>
+
+									</div>
+									<div class="col-1">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+								<button type="button" class="btn btn-primary">Guardar</button>
+							</div>
+
+							<hr>
+							<!-- Fin formulario proyecto 2 foto  -->
+
+							<!-- inicio formulario proyecto 2 textos -->
+							<div class="container">
+								<div class="row">
+									<div class="col-1">
+
+									</div>
+									<div class="col-10">
+										<form>
+											<div class="mb-3">
+												<label for="info1" class="form-label">Ingrese texto linea 1 <span
+														style="color:#9A93B0;"><em>Ej: Informaci�n de
+															Faena</em></span></label>
+												<input type="text" class="form-control" id="info1"
+													aria-describedby="emailHelp">
+
+											</div>
+
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+											<div class="mb-3">
+												<label for="info2" class="form-label">Ingrese texto linea 2 <span
+														style="color:#9A93B0;"><em>Ej: Informes realizados a partir de
+															bases de datos SQL</em></span></label>
+												<input type="text" class="form-control" id="info2"
+													aria-describedby="emailHelp">
+
+											</div>
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+											<div class="mb-3">
+												<label for="info3" class="form-label">Ingrese texto linea 3 <span
+														style="color:#9A93B0;"><em> Ingrese link a la p�gina del
+															Proyecto</em></span></label>
+												<input type="text" class="form-control" id="info3"
+													aria-describedby="emailHelp">
+
+											</div>
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+
+									</div>
+									</form>
+								</div>
+								<div class="col-1">
+								</div>
+							</div>
+							<!-- Fin formulario proyecto2  -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin proyectosModal 2 -->
+
+			<!-- Inicio proyectosModal 3 -->
+			<div class="modal fade" id="proyectosTres" tabindex="-1" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Proyectos</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+
+
+							<!-- inicio formulario proyecto 2 foto -->
+
+							<div class="container">
+								<div class="row">
+									<div class="col-1">
+
+									</div>
+									<div class="col-10">
+										<div class="mb-3">
+											<label for="banner" class="form-label">Seleccione la imagen : El archivo
+												debe
+												llamarse "Proyecto3.jpg"</label>
+											<input class="form-control" type="file" id="banner">
+										</div>
+
+									</div>
+									<div class="col-1">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+								<button type="button" class="btn btn-primary">Guardar</button>
+							</div>
+
+							<hr>
+							<!-- Fin formulario proyecto 2 foto  -->
+
+							<!-- inicio formulario proyecto 2 textos -->
+							<div class="container">
+								<div class="row">
+									<div class="col-1">
+
+									</div>
+									<div class="col-10">
+										<form>
+											<div class="mb-3">
+												<label for="info1" class="form-label">Ingrese texto linea 1 <span
+														style="color:#9A93B0;"><em>Ej: Informaci�n de
+															Faena</em></span></label>
+												<input type="text" class="form-control" id="info1"
+													aria-describedby="emailHelp">
+
+											</div>
+
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+											<div class="mb-3">
+												<label for="info2" class="form-label">Ingrese texto linea 2 <span
+														style="color:#9A93B0;"><em>Ej: Informes realizados a partir de
+															bases de datos SQL</em></span></label>
+												<input type="text" class="form-control" id="info2"
+													aria-describedby="emailHelp">
+
+											</div>
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+											<div class="mb-3">
+												<label for="info3" class="form-label">Ingrese texto linea 3 <span
+														style="color:#9A93B0;"><em> Ingrese link a la p�gina del
+															Proyecto</em></span></label>
+												<input type="text" class="form-control" id="info3"
+													aria-describedby="emailHelp">
+
+											</div>
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+
+									</div>
+									</form>
+								</div>
+								<div class="col-1">
+								</div>
+							</div>
+							<!-- Fin formulario proyecto3  -->
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin proyectosModal 3 -->
+
+			<!-- Inicio piepaginaModal -->
+			<div class="modal fade" id="piepaginaModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="exampleModalLabel">Footer</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+
+							<!-- inicio formulario footer textos -->
+							<div class="container">
+								<div class="row">
+									<div class="col-1">
+
+									</div>
+									<div class="col-10">
+										<form>
+											<div class="mb-3">
+												<label for="info1" class="form-label">Ingrese texto para el footer.
+													Ej: <span style="color:#9A93B0;"><em> &#169; Norma DF 2022 - TP
+															Argentina Programa </em></span></label>
+												<input type="text" class="form-control" id="info1"
+													aria-describedby="emailHelp">
+
+											</div>
+
+											<button type="button mb-2" class="btn btn-primary">Guardar</button>
+											<button type="button" class="btn btn-danger">Eliminar</button>
+											<button type="button" class="btn btn-warning">Actualizar</button>
+
+										</form>
+									</div>
+									<div class="col-1">
+
+									</div>
+								</div>
+							</div>
+							<!-- Fin formulario footer  -->
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+							<!--<button type="button" class="btn btn-primary">Guardar</button>-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin piepaginaModal -->
+
+		</div>
+
+		<!--Margen derecho-->
+		<div class="col-1">
+		</div>
+	</div>
+	</div>
+	<!--Footer-->
+	<footer class="bg-dark text-light text-center p-4 mt-5"> &#169; Norma DF 2022 - TP Argentina Programa </footer>
+</body>
+
+</html>
